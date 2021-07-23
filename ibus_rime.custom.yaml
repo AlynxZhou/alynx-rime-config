@@ -1,0 +1,5 @@
+patch:
+  # 舒服不如倒着。
+  style/horizontal: true
+  # 有些软件的行内预测支持有 bug，所以我一般不开。
+  style/inline_preedit: false
