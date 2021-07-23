@@ -11,7 +11,7 @@ First backup your old ibus-rime config.
 This is based on Luna Pinyin, so you need to install `rime-luna-pinyin`. It also depends on `rime-emoji` for emoji and `rime-pinyin-zhwiki` for extended dictionary. If you are Arch Linux users, just run this command to install them all (thanks to felixonmars).
 
 ```
-$ pacman -S librime ibus-rime rime-luna-pinyin rime-emoji rime-pinyin-zhwiki
+# pacman -S librime ibus-rime rime-luna-pinyin rime-emoji rime-pinyin-zhwiki
 ```
 
 If you are not Arch Linux users, I assume you know how to get those config for RIME, because I don't know.
