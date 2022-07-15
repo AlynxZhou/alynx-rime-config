@@ -15,6 +15,6 @@ sort: by_weight
 # use_preset_vocabulary: true
 
 import_tables:
-  - aurora_pinyin
   # 主要是为了肥猫 wiki 词库。极光拼音好像是内置常用简化字表的。
   - zhwiki
+  - aurora_pinyin
