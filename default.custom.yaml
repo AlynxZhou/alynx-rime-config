@@ -7,6 +7,8 @@ patch:
   schema_list:
     # 我只用朙月拼音简化字模式
     - schema: "luna_pinyin_simp"
+    # 听说极光拼音更好，不要忘了安装 AUR 包 rime-aurora-pinyin。不过好像不能用 emoji。
+    - schema: "aurora_pinyin"
   # 按 CapsLock 输出大写英文字母。
   ascii_composer/good_old_caps_lock: true
   # `inline_ascii` 在输入框内插入英文。
@@ -29,11 +31,17 @@ patch:
     # - "Control+s"
     - "Control+grave"
     - "F4"
+  # 每页 5 个候选有点太少了。
+  menu/page_size: 9
   # 这里修改的是整个输入法全局的键位，某些输入方案有自己的键位可以单独覆盖。
   # 但我暂时不需要。
   # Emacs 键位，我喜欢。
   # 可是谁给我解释一下为什么 Left 是按字拼音跳而 Right 是按字母跳？
   key_binder/bindings:
+    # 我几乎不用繁体，只是记录一下可以这么写，而且朙月拼音简化版的简繁开关名字和普通的不一样。
+    # - accept: "F5"
+    #   toggle: "zh_simp"
+    #   when: "always"
     - accept: "Control+p"
       send: "Up"
       when: "composing"

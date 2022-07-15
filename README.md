@@ -8,10 +8,11 @@ Alynx's RIME configuration files.
 
 First backup your old ibus-rime config.
 
-This is based on Luna Pinyin, so you need to install `rime-luna-pinyin`. It also depends on `rime-emoji` for emoji and `rime-pinyin-zhwiki` for extended dictionary. If you are Arch Linux users, just run this command to install them all (thanks to felixonmars).
+This uses Luna Pinyin and Aurora Pinyin, so you need to install `rime-luna-pinyin` from official repo and `rime-aurora-pinyin` from AUR. It also depends on `rime-emoji` for emoji and `rime-pinyin-zhwiki` for extended dictionary. If you are Arch Linux users, just run those commands to install them all (thanks to felixonmars).
 
 ```
 # pacman -S librime ibus-rime rime-luna-pinyin rime-emoji rime-pinyin-zhwiki
+$ paru rime-aurora-pinyin
 ```
 
 If you are not Arch Linux users, I assume you know how to get those config for RIME, because I don't know.
