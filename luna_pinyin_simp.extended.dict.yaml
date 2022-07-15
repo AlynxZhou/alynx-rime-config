@@ -13,6 +13,7 @@ sort: by_weight
 use_preset_vocabulary: true
 
 import_tables:
+  - emoji_suggestion
   - luna_pinyin
   - std_cn_chars_table
   - zhwiki
