@@ -10,7 +10,7 @@ patch:
   #   被筛掉，因此修改成插入到列表结尾最后运行。总之这个 emoji 的插入位置要保证
   #   前一个 filter 输出的是汉字，而后面的 filter 不能过滤掉 emoji。
   # https://github.com/hosxy/rime-aurora-pinyin/issues/13
-  __include: emoji_suggestion.patch/
+  __include: emoji_suggestion.patch:/
   # 主要是为了加载肥猫的 zhwiki 词库。
   translator/dictionary: luna_pinyin_simp.extended
   # 现在朙月拼音加载标点候选是加载 symbols 里面的，根本不加载 default。

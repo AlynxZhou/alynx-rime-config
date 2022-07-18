@@ -13,7 +13,9 @@ sort: by_weight
 use_preset_vocabulary: true
 
 import_tables:
-  - emoji_suggestion
+  - zhwiki
   - luna_pinyin
   - std_cn_chars_table
-  - zhwiki
+  # 虽然我用的 emoji 词典只包含简体中文，不过看起来朙月拼音可以正常地把简体词转
+  # 成繁体。结果大概就是词库出简体->简繁转换->繁体变 emoji。
+  - emoji_suggestion
