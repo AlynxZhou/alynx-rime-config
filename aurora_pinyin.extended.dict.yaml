@@ -1,5 +1,5 @@
-# 原来要结合默认词库和第三方词库，
-# 需要自己编写一个词库让它 fallback 到极光拼音和第三方词库。
+# 原来要结合默认词库和第三方词库，需要自己编写一个词库让它 fallback 到极光拼音和第三方词库。
+#
 # 我说佛老师对不起对不起，我不懂规矩。
 ---
 name: aurora_pinyin.extended
@@ -7,8 +7,11 @@ version: "0.1"
 # `by_weight`（按词频高低排序）或 `original`（保持原码表中的顺序）。
 sort: by_weight
 # 听说默认简化字八股文效果不好，还是算了。
-# https://blog.coelacanthus.moe/posts/tech/a-new-rime-simp-pinyin-schema/
+#
+# See <https://blog.coelacanthus.moe/posts/tech/a-new-rime-simp-pinyin-schema/>.
+#
 # 因为导入的朙月拼音词库是繁转简，所以这里不能导入简化字八股文。
+#
 # 导入简化字八股文。
 # vocabulary: essay-zh-hans
 # 选择是否导入预设词汇表【八股文】。
